@@ -64,8 +64,8 @@ convattrecurnet/
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/convattrecurnet.git
-cd convattrecurnet
+git clone https://github.com/velugurisaipavan/Convattrecurnet.git
+cd Convattrecurnet
 pip install -r requirements.txt
 python -m nltk.downloader punkt punkt_tab stopwords
 jupyter notebook notebooks/03_convattrecurnet.ipynb
@@ -81,9 +81,9 @@ Performance reported in the paper (Table I):
 |---|---|---|---|---|---|
 | BiLSTM | 97.17% | 94.60% | 93.90% | 0.1900 | 30 min |
 | BiLSTM + Attention | 99.38% | 95.28% | 93.14% | 0.2333 | 8.4 min |
-| **ConvAttRecurNet** | 98.53% | 94.37% | **94.06%** | **0.1908** | 20.3 min |
+| **ConvAttRecurNet** | 98.53% | 94.37% | **94.06%** | 0.1908 | 20.3 min |
 
-ConvAttRecurNet has the highest test accuracy and the smallest gap between training and test performance. BiLSTM + Attention fits the training data most closely but generalizes worst.
+ConvAttRecurNet has the highest test accuracy, and its validation and test accuracy are the closest of the three models (94.37% vs 94.06%), so it generalizes most consistently to unseen data. BiLSTM + Attention fits the training data most closely but has the lowest test accuracy.
 
 ConvAttRecurNet on the 46,415-post test set:
 
