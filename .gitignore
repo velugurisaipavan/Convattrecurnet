@@ -1,0 +1,12 @@
+# data & model artifacts
+*.csv
+best_model/
+*.keras
+*.h5
+
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store

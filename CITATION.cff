@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "ConvAttRecurNet: An Attention-based Hybrid Model for Suicidal Thoughts Detection"
+authors:
+  - family-names: Veluguri
+    given-names: Sai Pavan
+    affiliation: "Providence Health & Services"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "ConvAttRecurNet: An Attention-based Hybrid Model for Suicidal Thoughts Detection"
+  authors:
+    - family-names: Veluguri
+      given-names: Sai Pavan
+  collection-title: "2025 3rd International Conference on Disruptive Technologies (ICDT)"
+  publisher:
+    name: IEEE
+  year: 2025
+  doi: "10.1109/ICDT63985.2025.10986603"
